@@ -1,5 +1,5 @@
   
-resource "null_resource" "HelloWorld" {
+resource "null_resource" "OneHelloWorld" {
   provisioner "local-exec" {
     command = "echo Hello world!"
   }
